@@ -1,0 +1,31 @@
+{
+  "name": "cat-energy",
+  "version": "1.0.0",
+  "description": "Функциональное питание для котов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Westerling13/cat-energy.git"
+  },
+  "author": "Westerling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Westerling13/cat-energy/issues"
+  },
+  "homepage": "https://github.com/Westerling13/cat-energy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "node-normalize-scss": "^8.0.0"
+  }
+}
