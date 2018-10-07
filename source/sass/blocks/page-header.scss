@@ -1,0 +1,26 @@
+.page-header {
+
+}
+
+.page-header__button {
+  display: block;
+  width: 24px;
+  height: 18px;
+
+  font-size: 0;
+  line-height: 0;
+
+  background-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 11%,
+    #fff 11%,
+    #fff 44.5%,
+    #000 44.5%,
+    #000 55.5%,
+    #fff 55.5%,
+    #fff 89%,
+    #000 89%,
+    #000 100%,
+    );
+}
