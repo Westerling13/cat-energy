@@ -2,6 +2,23 @@
 
 }
 
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  padding: 0 20px;
+
+  background-color: #ffffff;
+
+}
+
+.page-header__logo {
+  display: block;
+  width: auto;
+}
+
 .page-header__button {
   display: block;
   width: 24px;

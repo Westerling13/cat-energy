@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 29px 20px 22px;
+
+  color: #ffffff;
+
+  background-image: url("../img/bg-intro-index-mobile.jpg");
+  background-repeat: no-repeat;
+}
+
+.intro__title {
+  margin: 0 0 24px;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.intro__tagline {
+  margin: 0 0 29px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro__button {
+  width: 100%;
+  margin-top: 3px;
+}
