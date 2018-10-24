@@ -1,0 +1,66 @@
+.about {
+  padding: 17px 20px 46px;
+
+  background-color: #ffffff;
+}
+
+.about__title {
+  margin: 0 0 30px;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #111111;
+}
+
+.about__feature {
+  position: relative;
+
+  margin: 0 0 26px;
+  padding: 0 0 0 80px;
+
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #444444;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 51%;
+    left: 0;
+
+    display: block;
+    width: 60px;
+    height: 60px;
+
+    background-color: #68b738;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transform: translateY(-50%);
+  }
+
+  &--leaf::before {
+    background-image: url("../img/icon-leaf.png");
+  }
+
+  &--water::before {
+    background-image: url("../img/icon-water.png");
+  }
+
+  &--dinner::before {
+    background-image: url("../img/icon-dinner.png");
+  }
+
+  &--clock::before {
+    background-image: url("../img/icon-clock.png");
+  }
+}

@@ -4,7 +4,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0 0 20px;
   padding: 30px 20px 22px;
 
   color: #111111;
@@ -65,7 +64,7 @@
 }
 
 .program__title {
-  margin: 0 0 31px 71px;
+  margin: 0 0 29px 71px;
 
   font-size: 24px;
   font-weight: 400;
@@ -76,7 +75,7 @@
 .program__description {
   position: relative;
 
-  margin: 0 0 40px;
+  margin: 0 0 42px;
 
   font-size: 14px;
   font-weight: 400;
@@ -88,8 +87,8 @@
     content: "";
 
     position: absolute;
-    left: -1px;
-    bottom: -21px;
+    left: 0px;
+    bottom: -23px;
 
     display: block;
     width: 240px;

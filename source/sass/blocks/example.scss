@@ -1,0 +1,145 @@
+.example {
+  padding: 17px 0 36px;
+
+  background-color: #f2f2f2;
+}
+
+.example__wrapper {
+  margin: 0 0 34px;
+  padding: 0 20px;
+}
+
+.example__title {
+  margin: 0 0 23px;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #111111;
+}
+
+.example__description {
+  margin: 0 0 25px;
+  padding: 0 14px 0 0;
+
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.example__metric {
+  margin: 0 0 14px;
+  padding: 0 0 20px;
+}
+
+.example__metric p {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 124px;
+  height: 56px;
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+}
+
+.example__metric span {
+  position: absolute;
+  top: 46px;
+  left: 50%;
+  z-index: 10;
+
+  display: block;
+  width: 87px;
+
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #444444;
+
+  background-color: #f2f2f2;
+
+  transform: translateX(-50%);
+}
+
+.example__cost {
+  margin: 0 auto;
+
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+}
+
+.example__slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & img {
+    margin-bottom: 32px;
+  }
+}
+
+.example__toggle {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  width: 197px;
+
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.example__toggle label {
+  position: relative;
+}
+
+.example__input {
+  //position: absolute;
+  //opacity: 0;
+  //z-index: -1;
+}
+
+/*.example__input + span {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+
+  display: block;
+  width: 84px;
+  height: 14px;
+
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #cdcdcd;
+
+  background-color: #68b738;
+  transform: translateX(-50%);
+}
+*/

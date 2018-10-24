@@ -1,0 +1,36 @@
+.contacts {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  padding: 28px 19px 26px;
+
+  background-color: #ffffff;
+
+  transform: translateX(-50%);
+}
+
+.contacts__title {
+  width: 50%;
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.contacts__adress {
+  width: 50%;
+  margin: 0;
+
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #444444;
+}
